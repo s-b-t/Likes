@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Likes Part 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="main">
+            <div class="nav">
+                <h1>Network</h1>
+            </div>
+            <h1 id="yourfeed">Your Feed</h1>
+            <div class="container">
+                <div class="jamesdoebox">
+                    <div class="content1">
+                        <img src="../../../CSS/User_Card/user-circle.png"
+                            alt="profilepic">
+                        <h3><a href="#">Add an avatar</a></h3>
+                        <h2>James Doe</h2>
+                    </div>
+                </div>
+                <div class="boxesonright">
+                    <div class="firstbox">
+                        <div class="top1">
+                            <h2>Neil M</h2>
+                            <h3 class="count1"><span id="nine1">9</span> like(s)</h3>
+                            <button id="likebutton" onclick="add1('#nine1')">Like</button>
+                        </div>
+                        <div class="bottom1">
+                            <h3>I just set up this new discord bot, let me know
+                                what you all think. <a href="#">link</a></h3>
+                        </div>
+                    </div>
+                    <div class="secondbox">
+                        <div class="top2">
+                            <h2>Nichole K</h2>
+                            <h3 id="count2"><span id="twelve">12</span> like(s)</h3>
+                            <button id="likebutton2" onclick="add1('#twelve')">Like</button>
+                        </div>
+                        <div class="bottom2">
+                            <h3>Just finished my <a href="#">next comic</a>,
+                                check it out.</h3>
+                        </div>
+                    </div>
+                    <div class="thirdbox">
+                        <div class="top3">
+                            <h2>Jim R</h2>
+                            <h3 id="count3"><span id="nine2">9</span> like(s)</h3>
+                            <button id="likebutton3" onclick="add1('#nine2')">Like</button>
+                        </div>
+                        <div class="bottom3">
+                            <h3>I can't stop listening to the <a href="#">new
+                                    album.</a> Who else is it liking it?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

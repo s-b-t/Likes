@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic sans-serif, Arial;
+}
+
+#fullsite {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#container {
+    width: 500px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+#someuserbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#someuserbox h3 {
+    padding-left: 80px;
+    padding-top: 5px;
+}
+
+#likebutton {
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+    background-color: rgb(255,216,102);
+    height: 30px;
+    width: 60px;
+}
+
+#message {
+    padding-left: 30px;
+}
+
+
+
+
+
